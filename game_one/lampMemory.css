@@ -1,0 +1,179 @@
+body {
+	background-color: gray;
+}
+
+#divbody {
+	background-color: #DDDDDD;
+	margin:30px auto;
+	border:5px solid #444444;
+	width:1000px;
+	height:720px;
+	position: relative;
+}
+
+#GridTable {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:100%;
+	border-collapse:collapse;
+}
+
+#GridTable td, #GridTable th 
+{
+	font-size:32px;
+	border:1px solid #DDDDDD;
+	padding:3px 7px 2px 7px;
+}
+
+#GridTable th 
+  {
+  font-size:1.1em;
+  text-align:center;
+  padding-top:5px;
+  padding-bottom:4px;
+  background-color:#C0C0C0;
+  color:#ffffff;
+  }
+
+#GridTable tr.alt td 
+  {
+  color:#000000;
+  background-color:#EAF2D3;
+  }
+
+#GridTable1 {
+	margin-top: 160px;
+	border-collapse:separate;
+	border-spacing:30px;
+}
+
+#GridTable2 {
+	margin-top: 60px;
+	border-collapse:separate;
+	border-spacing:30px;
+}
+
+.divplay {
+	text-align: center;
+	margin-top: 80px;
+
+}
+
+.divbottom1 {
+	text-align: center;
+	margin-bottom: 80px;
+	position: absolute;
+	left: 400px;
+	top: 600px
+}
+
+.divbottom2 {
+	text-align: center;
+	margin-bottom: 80px;
+	position: absolute;
+	left: 400px;
+	top: 650px
+}
+
+.title {
+	color: #666;
+	text-align: center;
+	margin-top: 60px;
+	font-size: 36px;
+	font-family: "楷体";
+	font-weight: bold;
+}
+
+.list {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.words {
+	color: #666;
+	text-align: center;
+	margin-top: 60px;
+	font-size: 28px;
+	font-family: "楷体";
+	font-weight: bold;
+}
+
+.score {
+	color: #666;
+	font-weight: 300;
+    font-size: 28px;
+    font-family: "楷体","Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	padding: 0 40px;
+    margin: 0;
+	position: absolute;
+	left: 20px;
+	top: 40px;
+}
+
+.finalScore {
+	color: #666;
+	font-weight: 300;
+    font-size: 28px;
+    font-family: "楷体","Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	padding: 0 40px;
+    margin: 0;
+	position: absolute;
+	left: 320px;
+	top: 250px;
+}
+
+.textEdit {
+	border-radius: 200px;
+	color: #C0C0C0;
+    background-color: #FFF;
+    border-color: #EEE;
+    font-weight: 300;
+    font-size: 32px;
+    font-family: "黑体","Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-decoration: none;
+    text-align: left;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 40px;
+    margin: 0;
+    display: inline-block;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    position: absolute;
+	left: 290px;
+	top: 350px;
+}
+
+.button {
+	border-radius: 200px;
+	color: #666;
+    background-color: #EEE;
+    border-color: #EEE;
+    font-weight: 300;
+    font-size: 28px;
+    font-family: "楷体","Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 40px;
+    margin: 0;
+    display: inline-block;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
