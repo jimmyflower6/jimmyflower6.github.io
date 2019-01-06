@@ -41,6 +41,8 @@ function setup() {//初始化
 		cell.completed = false;
 		cell.clicked = false;
 
+		cell.children[0].src = "res/lampNo.png"
+
 		cell.addEventListener("mouseenter",function(){
             if(this.completed == false && this.clicked == false)
                 this.style.background = "gray";
