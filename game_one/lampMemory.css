@@ -3,9 +3,9 @@ body {
 }
 
 #divbody {
-	background-color: #DDDDDD;
+	background-color: #DDD;
 	margin:30px auto;
-	border:5px solid #444444;
+	border:5px solid #444;
 	width:1000px;
 	height:720px;
 	position: relative;
@@ -20,7 +20,7 @@ body {
 #GridTable td, #GridTable th 
 {
 	font-size:32px;
-	border:1px solid #DDDDDD;
+	border:1px solid #DDD;
 	padding:3px 7px 2px 7px;
 }
 
@@ -31,12 +31,12 @@ body {
   padding-top:5px;
   padding-bottom:4px;
   background-color:#C0C0C0;
-  color:#ffffff;
+  color:#fff;
   }
 
 #GridTable tr.alt td 
   {
-  color:#000000;
+  color:#000;
   background-color:#EAF2D3;
   }
 
